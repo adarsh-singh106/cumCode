@@ -1,0 +1,103 @@
+# ===============================
+# 🔐 Secrets & Environment
+# ===============================
+.env
+.env.*
+*.env
+secrets/
+credentials/
+*.key
+*.pem
+
+# ===============================
+# 🐍 Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+myvenv/
+env/
+
+# ===============================
+# 📓 Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===============================
+# 🧠 GenAI / LangChain Artifacts
+# ===============================
+.cache/
+.cache_llm/
+.cache_embeddings/
+langchain.db
+chroma/
+chroma_db/
+faiss_index/
+vectorstore/
+vectorstores/
+
+# ===============================
+# 📦 Model & Token Caches
+# ===============================
+.huggingface/
+.hf_cache/
+.transformers/
+torch_cache/
+*.pt
+*.bin
+*.safetensors
+
+# ===============================
+# 📊 Logs & Outputs
+# ===============================
+logs/
+*.log
+outputs/
+generated/
+results/
+
+# ===============================
+# 🧪 Experiments
+# ===============================
+experiments/
+runs/
+wandb/
+mlruns/
+
+# ===============================
+# 🖥️ OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# 📦 Build / Distribution
+# ===============================
+build/
+dist/
+*.egg-info/
+
+# ===============================
+# 🧾 Temporary Files
+# ===============================
+*.tmp
+*.swp
+*.bak
+*.cache
+
+# ===============================
+# 🔒 API Keys (extra safety)
+# ===============================
+*apikey*
+*api_key*
+*token*
+*secret*
